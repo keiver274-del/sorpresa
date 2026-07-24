@@ -1,4 +1,4 @@
-const nombre = localStorage.getItem("nombre") || "María";
+const nombre = localStorage.getItem("nombre") || "Mafer";
 
 // Pon aquí TU NÚMERO DE TELÉFONO con el código de tu país (sin el signo + ni espacios). 
 // Por ejemplo, si es de Venezuela (+58), ponlo así: "584120000000"
@@ -66,19 +66,19 @@ function cargarPregunta() {
                     
                     // Recuperamos todas las respuestas guardadas
                     const r1 = localStorage.getItem("hobbie_raro");
-                    const r5 = localStorage.getItem("detalles_ideal")
+                    const r2 = localStorage.getItem("detalles_ideal");
 
                     // Construimos el texto del mensaje automatizado
                     let mensajeWhatsApp = `¡Misión cumplida!\n`;
-                    mensajeWhatsApp += `• *Sentirme querida:* ${r1}\n\n`;
-                    mensajeWhatsApp += `• *Detalles ideal:* ${r2}\n`;
+                    mensajeWhatsApp += `• *Sobre mí:* ${r1}\n\n`;
+                    mensajeWhatsApp += `• *Detalles que le gustan:* ${r2}\n`;
 
                     // Codificamos el texto para que sea una URL válida
                     const mensajeCodificado = encodeURIComponent(mensajeWhatsApp);
 
                     // Creamos el botón final de WhatsApp
                     const botonWhatsApp = document.createElement("button");
-                    botonWhatsApp.innerHTML = "Quero enviarte mis respuestas por WhatsApp";
+                    botonWhatsApp.innerHTML = "Quiero enviarte mis respuestas por WhatsApp";
                     botonWhatsApp.style.background = "#25D366"; // Color verde oficial de WhatsApp
                     botonWhatsApp.style.marginTop = "15px";
 
