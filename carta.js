@@ -7,7 +7,7 @@ const mensaje =
 
 "Hola " + nombre + ".\n" +
 
-"Técnicamente casi no hemos hablado — pero eso no impidió que quisiera hacer esto.\n" +
+"Técnicamente casi no hemos hablado pero eso no impidió que quisiera hacer esto.\n" +
 
 "Digamos que quería llamar tu atención de una forma un poco menos genérica.\n" +
 
