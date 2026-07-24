@@ -7,7 +7,7 @@ const mensaje =
 
 "Hola " + nombre + ".\n" +
 
-"técnicamente casi no hemos hablado — pero eso no impidió que quisiera hacer esto.\n" +
+"Técnicamente casi no hemos hablado — pero eso no impidió que quisiera hacer esto.\n" +
 
 "Digamos que quería llamar tu atención de una forma un poco menos genérica.\n" +
 
@@ -15,7 +15,7 @@ const mensaje =
 
 "Espero que te animes a seguir descubriéndolo.\n" +
 
-"Espero que te guste mucho";
+"Espero que te guste mucho...";
 
 let i = 0;
 
