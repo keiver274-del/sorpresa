@@ -33,6 +33,8 @@ function cargarPregunta() {
     const inputTexto = document.createElement("input");
     inputTexto.type = "text";
     inputTexto.id = "respuesta-abierta";
+    inputTexto.name = "campo-respuesta";
+    inputTexto.setAttribute("autocomplete", "off");
     inputTexto.placeholder = "Escribe tu respuesta aquí...";
     inputTexto.style.color = "#000000";
     
